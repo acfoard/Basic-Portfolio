@@ -7,24 +7,28 @@
     </head>
     <body>
         <header>
-            <h1 style="headerTitle">Andrew Foard</h1>
-            <a href="/about" style="headerLink">About</a>
-            <a href="/portfolio" style="headerLink middleLink">Portfolio</a>
-            <a href="/contact" style="headerLink">Contact</a>
+            <div class="headerTitle">
+                <h1>Andrew Foard</h1>
+            </div>
+            <nav class="navLinks">
+                <a href="index.html" style="headerLink">About</a> |
+                <a href="portfolio.html" style="headerLink">Portfolio</a> |
+                <a href="contact.html" style="headerLink">Contact</a>
+            </nav>
         </header>
         
         <h2>Portfolio</h2>
-        <div>
-            <div>
+        <div class="divRow" "clearFix">
+            <div class="projectLink" "firstPosition">
                 <img src="./assets/images/placeHolder1.jpg" alt="">
                 <div>Hangman</div>
             </div>
-            <div>
+            <div class="projectLink" "firstPosition">
                 <img src="./assets/images/placeHolder2.jpg" alt="">
                 <div>RPG Game</div>
             </div>
         </div>
-        <div>
+        <div class="divRow">
             <div>
                 <img src="./assets/images/placeHolder3.jpg" alt="">
                 <div>Trivia Game</div>
@@ -34,7 +38,7 @@
                 <div>GSU Info Widget</div>
             </div>
         </div>
-        <div>
+        <div class="divRow">
             <div>
                 <img src="./assets/images/placeHolder5.jpg" alt="">
                 <div>Rock Paper Scissors</div>

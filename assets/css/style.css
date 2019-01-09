@@ -1,0 +1,64 @@
+header {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    background: whitesmoke;
+    height: 75px;
+    width: 100%;
+    border-bottom: 1px solid lightslategray;
+    line-height: 75px;
+    z-index: 1;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2, h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.headerTitle {
+    height: 100%;
+    background: #4aaaa5;
+    font-size: 25px;
+    font-weight: bold;
+    width: 200px;
+    float: left;
+    color: white;
+    line-height: 75px;
+    margin: 0 200px;
+    text-align: center;    
+}
+
+.navLinks {
+    float: right;
+    margin: 0 200px;
+}
+
+h2 {
+    clear: both;
+}
+
+.divRow {
+    position: relative;
+    top: 76px;
+}
+
+.projectLink {
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+.firstPosition {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    clear: left;
+}
+
+.clearFix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

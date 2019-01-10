@@ -12,6 +12,17 @@ header {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/background.jpg);
+}
+
+.bodyContent {
+    width: 960px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0px 25px;
+    margin: 76px auto 50px;
+    background: whitesmoke;
+    position: relative;
 }
 
 h2, h1 {
@@ -35,6 +46,15 @@ h2, h1 {
     margin: 0 200px;
 }
 
+.subHeader {
+    height: 75px;
+    Font-size: 25px;
+    font-weight: bold;
+    color: #4aaaa5;
+    line-height: 75px;
+    border-bottom: 2px solid lightslategray;
+}
+
 h2 {
     clear: both;
 }
@@ -46,8 +66,26 @@ h2 {
 
 .projectLink {
     float: left;
-    width: 30px;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+}
+
+.imageLink {
+    width: 100%;
+    height: 100%;
+}
+
+.linkTitle {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    background: #4aaaa5;
     height: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    color: white;
 }
 
 .firstPosition {
@@ -61,4 +99,52 @@ h2 {
     content: "";
     clear: both;
     display: table;
+  }
+
+ .picContainer {
+      Height: 220px;
+      Width: 160px;
+      margin-right: 15px;
+      margin-top: 15px;
+      float: left;
+  }
+
+ .profilePic {
+      height: 100%;
+      width: 100%;
+  }
+
+  p {
+      line-height: 2.0;
+      margin: 15px 15px;
+  }
+
+  .formPad {
+      margin: 8px;
+  }
+
+  .formField {
+      width: 100%;
+  }
+
+  .submitButton {
+      color: white;
+      background: #4aaaa5;
+      border-radius: 5px;
+      border: none;
+      padding: 5px;
+      font-size: 14px;
+  }
+
+ .footer {
+      width: 100%;
+      height: 30px;
+      position: fixed;
+      bottom: 0px;
+      border-top: 2px solid lightslategray;
+      background: #666666;
+      text-align: center;
+      color: white;
+      font-size: 15px;
+      padding: 5px;
   }

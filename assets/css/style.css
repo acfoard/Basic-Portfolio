@@ -22,7 +22,6 @@ body {
     padding: 0px 25px;
     margin: 76px auto 50px;
     background: whitesmoke;
-    position: relative;
 }
 
 h2, h1 {
@@ -60,15 +59,14 @@ h2 {
 }
 
 .divRow {
-    position: relative;
-    top: 76px;
 }
 
 .projectLink {
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 180px;
     margin: 15px;
+    position: relative;
 }
 
 .imageLink {
@@ -81,17 +79,15 @@ h2 {
     bottom: 10px;
     width: 100%;
     background: #4aaaa5;
-    height: 30px;
+    height: 50px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
-    line-height: 30px;
+    line-height: 50px;
     color: white;
 }
 
 .firstPosition {
-    position: absolute;
-    left: 10px;
-    top: 10px;
     clear: left;
 }
 

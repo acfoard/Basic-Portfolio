@@ -1,7 +1,6 @@
 header {
     position: fixed;
     top: 0px;
-    bottom: 0px;
     background: whitesmoke;
     height: 75px;
     width: 100%;
@@ -57,9 +56,6 @@ h2, h1 {
 
 h2 {
     clear: both;
-}
-
-.divRow {
 }
 
 .projectLink {
